@@ -24,6 +24,7 @@ console.log(++ population);
 console.log(population > 6000000)
 console.log(population<33000000)
 
+//cadena de lenguaje
 let description =
 country +
 ' esta en ' +
@@ -33,3 +34,7 @@ population +
 ' de personas hablando ' +
 lenguaje;
 console.log(description)
+
+//Utlizando sintaxis literal de plantilla
+const description2 = '${country} esta en ${continent}, y tiene ${population} de personas hablando ${lenguaje}'
+console.log(description2)
