@@ -36,5 +36,12 @@ lenguaje;
 console.log(description)
 
 //Utlizando sintaxis literal de plantilla
-const description2 = '${country} esta en ${continent}, y tiene ${population} de personas hablando ${lenguaje}'
+const description2 = `${country} esta en ${continent}, y tiene ${population} de personas hablando ${lenguaje}`
 console.log(description2)
+
+//Condiciones If/else
+if(population > 33000000){
+    console.log(`${country} su poblacione es de ${population}`)
+}else{
+    (console.log(`${country} su poblacion es ${33000000 - population} millones de avitantes`));
+}
