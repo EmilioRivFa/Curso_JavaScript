@@ -1,3 +1,4 @@
+/*
 let country = 'mexico';
 let continent = 'America';
 let population = 660000;
@@ -64,4 +65,17 @@ const numNeighbours = prompt(
     console.log('More than 1 border');
   } else {
     console.log('No borders');
+  }
+*/
+  //Operadores lógicos
+
+
+  const habitantes = prompt('Cuantos habitantes son?');
+  const idioma = prompt('Que idioma hablan?');
+
+  if(idioma === "ingles" && habitantes<50 && habitantes>0){
+    console.log('Muy bien, vivire aqui');
+ 
+  }else{
+    console.log('No vivas aqui!!');
   }
