@@ -12,7 +12,8 @@ let job2 = "teacher";
 
 console.log(myFirstJob, myCurrentJob);
 
-*/
+
+//Tipos de datos
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 console.log(typeof true);
@@ -32,3 +33,19 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+
+//let, const and var
+
+let age = 20;
+age = 21;
+const birthYear = 2005;
+// birthYear = 1990;
+
+//const job;
+var job = 'programmer';
+job = 'student';
+
+lastName = 'Rivera';
+console.log(lastName)
