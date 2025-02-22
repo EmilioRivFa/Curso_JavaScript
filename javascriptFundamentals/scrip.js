@@ -33,7 +33,7 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
-*/
+
 
 
 //let, const and var
@@ -49,3 +49,37 @@ job = 'student';
 
 lastName = 'Rivera';
 console.log(lastName)
+*/
+
+//Basic Operators
+//Math operators
+const now = 2037
+const ageEmilio = now - 2004;
+const ageSarah = now - 2020;
+console.log(ageEmilio, ageSarah)
+
+console.log(ageEmilio * 2, ageEmilio / 10, 2 **3);
+// 2 **3 means 2 to the power of 3 = 2*2*2
+
+const firstName = 'Emilio';
+const lastName = 'Rivera';
+console.log(firstName + ' '+ lastName);
+
+// Assignment operators
+let x = 10 + 5; // x = 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++;
+x--;
+x--;
+
+console.log(x)
+
+
+// Comparison operators
+console.log(ageEmilio > ageSarah);
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+console.log(isFullAge);
+console.log(now -2004 > now -2018)
