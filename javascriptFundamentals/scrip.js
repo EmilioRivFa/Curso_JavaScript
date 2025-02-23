@@ -49,7 +49,7 @@ job = 'student';
 
 lastName = 'Rivera';
 console.log(lastName)
-*/
+
 
 //Basic Operators
 //Math operators
@@ -82,4 +82,19 @@ console.log(ageSarah >= 18);
 
 const isFullAge = ageSarah >= 18;
 console.log(isFullAge);
-console.log(now - 2004 > now -2018)
+console.log(now - 2004 > now -2018);
+*/
+// Operador Precedence
+const now = 2037;
+const ageEmilio = now - 2004;
+const ageSarah = now - 2018;
+console.log(now - 2004 > now - 2018);
+
+console.log(25- 10 - 5);
+let x, y;
+x = y = 25 - 10 -5;
+console.log(x, y);
+
+const averageAge = ageEmilio + ageSarah / 2;
+console.log(averageAge);
+console.log(ageEmilio, ageSarah, averageAge);
