@@ -98,4 +98,4 @@ console.log(x, y);
 const averageAge = ageEmilio + ageSarah / 2;
 console.log(averageAge);
 console.log(ageEmilio, ageSarah, averageAge);
-//E6sds
+//E6sdss
