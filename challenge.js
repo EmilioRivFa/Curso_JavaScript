@@ -72,3 +72,4 @@ if(BMIJohn > BMIJohn){
 }else{
     console.log(`John's BMI (${BMIJohn}) heigher than Marks's!(${BMIMark})!`);
 }
+//h
