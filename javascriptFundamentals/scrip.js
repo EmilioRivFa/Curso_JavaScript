@@ -83,7 +83,7 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 console.log(isFullAge);
 console.log(now - 2004 > now -2018);
-*/
+
 // Operador Precedence
 const now = 2037;
 const ageEmilio = now - 2004;
@@ -98,4 +98,14 @@ console.log(x, y);
 const averageAge = ageEmilio + ageSarah / 2;
 console.log(averageAge);
 console.log(ageEmilio, ageSarah, averageAge);
-//E6sdss
+*/
+//Calcular el BMI(Indice de masa corporal)
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log('Tu masa es '+ BMIMark, BMIJohn);
