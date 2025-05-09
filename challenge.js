@@ -75,7 +75,7 @@ if(BMIJohn > BMIJohn){
     console.log(`John's BMI (${BMIJohn}) heigher than Marks's!(${BMIMark})!`);
 }
 
-*/
+
 
 const inputYear = '2004';
 console.log(Number(inputYear), inputYear);
@@ -99,3 +99,26 @@ console.log('20' / '10' / 3);
 let n = '1' + 1;
 n = n-1;
 console.log(n);
+
+*/
+
+//5 falsy values: 0, '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Emilio'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const dinero = 0;
+if(dinero){
+    console.log("Don't spend it all ;)");
+}else{
+    console.log('You should get a job!');
+}
+
+let height=5;
+if(height){
+    console.log("'YAY! Height is defined");
+}else{
+    console.log('Height is UNDEFINED')
+}
