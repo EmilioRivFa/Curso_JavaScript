@@ -122,7 +122,6 @@ if(height){
 }
 
 
-*/
 const edad = 20;
 
 if(edad === 20){
@@ -148,3 +147,34 @@ if(favourite === 23){
 
 
 if(favourite !== 23) console.log('Why not 23?');
+
+
+*/
+
+const hasDriversLicence = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicence && hasGoodVision); //AND
+console.log(hasDriversLicence || hasGoodVision);//OR
+console.log(!hasDriversLicence); //NOT
+
+const shouldDrive = hasDriversLicence && hasGoodVision;
+
+if(shouldDrive){
+    console.log('Sarah is able to drive');
+}else{
+    console.log('Someone else should drive...');
+}
+
+const isTired = true; // C
+console.log(hasDriversLicence && hasGoodVision  && isTired)
+
+if(hasDriversLicence && hasGoodVision && !isTired){
+    console.log('Sarah is able to drive!');
+}else{
+    console.log('Someone else should drive...');
+}
+
+
+
+
