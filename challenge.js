@@ -149,8 +149,8 @@ if(favourite === 23){
 if(favourite !== 23) console.log('Why not 23?');
 
 
-*/
 
+//Tabla de verdad
 const hasDriversLicence = true;
 const hasGoodVision = true;
 
@@ -174,6 +174,46 @@ if(hasDriversLicence && hasGoodVision && !isTired){
 }else{
     console.log('Someone else should drive...');
 }
+
+
+
+
+//CHALLEGENGE #3
+
+Hay dos equipos de gimnasia: Delfines y Koalas. Compiten entre ellos 3 veces. 
+¡El equipo con el promedio de puntuación más alto gana un trofeo!
+
+Tus tareas:
+
+Calcula el promedio de puntuación para cada equipo, usando los datos de prueba incluidos abajo. 
+El promedio de los Delfines debe asignarse a la variable scoreDolphins, y el promedio de los Koalas
+ debe asignarse a la variable scoreKoalas.
+
+Compara los promedios de los equipos para determinar al ganador de la competencia e imprime en la consola:
+
+"Dolphins win the trophy" si ganan los Delfines, o
+
+"Koalas win the trophy" si ganan los Koalas, o
+
+"Both win the trophy" si los promedios son iguales.
+
+*/
+
+const scoreDolphins = prompt('Cual es el puntaje del delfin?')/3;
+
+const scoreKoalas =prompt('Cual es el puntaje de koala?')/3;
+
+if(scoreDolphins > scoreKoalas){
+    console.log('Dolphins win the trophy', scoreDolphins);
+}else if(scoreDolphins < scoreKoalas){
+    console.log('Koalas win the trophy', scoreKoalas);
+}else{
+    console.log('Both win the trophy');
+}
+
+
+//The switch Statement
+
 
 
 
