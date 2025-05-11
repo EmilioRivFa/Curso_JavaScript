@@ -197,7 +197,6 @@ Compara los promedios de los equipos para determinar al ganador de la competenci
 
 "Both win the trophy" si los promedios son iguales.
 
-*/
 
 const scoreDolphins = prompt('Cual es el puntaje del delfin?')/3;
 
@@ -210,11 +209,13 @@ if(scoreDolphins > scoreKoalas){
 }else{
     console.log('Both win the trophy');
 }
-
+*/
 
 //The switch Statement
 
+const day = 'monday';
 
 
+//h
 
 
