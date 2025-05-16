@@ -216,6 +216,6 @@ if(scoreDolphins > scoreKoalas){
 const day = 'monday';
 
 
-//hola co
+//hola com
 
 
